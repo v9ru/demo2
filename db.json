@@ -1,20 +1,23 @@
-{
-  "tenant_conf": [
-    {
-      "id": 1,
-      "data": {
-        "available_plugin_ids": [
-          "1", "3", "5"
-        ]
+{  
+   "tenant_conf":[  
+      {  
+         "id":1,
+         "data":{  
+            "available_plugin_ids":[  
+               "1",
+               "3",
+               "5"
+            ]
+         }
       }
-    }
-  ],
-  "org": [
-    {
-      "id": "1",
-      "data": {
-        "enabled_plugins": ["3", "5"]
+   ],
+   "org":{  
+      "id":"1",
+      "data":{  
+         "enabled_plugins":[  
+            "3",
+            "5"
+         ]
       }
-    }
-  ]
+   }
 }
